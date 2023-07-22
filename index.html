@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Refresh Energy Drink</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:wght@300&family=Ruda&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="top_intro">
+        <div id="layers">
+            <div class="vignette">
+                <button class="enter" onclick="open_screen()"><span>EXPLORE</span></button>
+            </div>
+            <img src="/images/parallax/1.webp" class="parallax-bg bg-1" data-speedx="-0.2" data-speedy="0.2">
+            <!-- <img src="/images/parallax/2.webp" class="parallax-bg bg-2" data-speedx="-0.1" data-speedy="0.2"> -->
+            <!-- <img src="/images/parallax/3.webp" class="parallax-bg bg-3" data-speedx="0.12" data-speedy="0.008"> -->
+            <!-- <img src="/images/parallax/6.webp" class="parallax-bg bg-4" data-speedx="0.2" data-speedy="0.2"> -->
+            <img src="/images/parallax/5.webp" class="parallax-bg bg-5" data-speedx="-0.08" data-speedy="0.02">
+            <img src="/images/parallax/7_v2.webp" class="parallax-bg bg-7" data-speedx="-0.15" data-speedy="0.15">
+            <img src="/images/parallax/6.webp" class="parallax-bg_non bg-6" >
+            <div class="parallax-bg_text text">
+                <h2>WELCOME TO</h2>
+                <h1>NEMO 3D</h1>
+            </div>
+            <!-- <img src="/images/parallax/6.png" alt="" class="parallax-bg text"> -->
+        </div>
+    </div>
+    <div id="main">
+        <div id="page">
+            <div>
+                <video src="video/orange_for_web.mp4" muted autoplay loop></video>
+                <nav id="nav_menu">
+                    <h3>REFRESH</h3>
+                    <!-- <ul id="menu">
+                        <li><a href="#page" class="modalNavLink">Home</a></li>
+                        <li><a href="#page1" class="modalNavLink">Product Animation</a></li>
+                        <li><a href="#page2" class="modalNavLink">Stills</a></li>
+                        <li><a href="#page3" class="modalNavLink">Break Down</a></li>
+                        <li><a href="#page4" class="modalNavLink">About Me</a></li>
+                    </ul> -->
+                </nav>
+            </div>
+        </div>
+        <div id="page1" class="pages">
+            <div id="page1_tbox">
+                <h1>Introducing Refresh Orange: Awaken Your Senses!</h1>
+                <h3>Are you ready for an explosion of refreshing citrus flavor? Look no further than Refresh Orange, the ultimate energy drink that delivers an electrifying taste experience like no other. Packed with invigorating ingredients and a tantalizing orange zest, this beverage is designed to fuel your body and refresh your spirit.</h3>
+                <video src="video/vid_adv.mp4" controls controlsList="nodownload"></video>
+                <h3 id="page1_tbox_btmline">"Orange Bliss in Every Sip: Refresh Yourself!"</h3>
+            </div>
+        </div>
+        <div id="page2" class="pages">
+            <h1>BE ALIVE</h1>
+            <canvas id="page2_canvas">
+            </canvas>
+        </div>
+        <div id="page3" class="pages">
+            <canvas id="page3_canvas">
+            </canvas>
+            <h1>TASTY</h1>
+        </div>
+        <div id="page4" class="pages">
+            <div id="page4_tbox">
+                <h1>"Elevating the Senses"</h1>
+                <h3>Indulge your senses with our captivating product images, carefully curated to elevate your visual experience</h3>
+            </div>
+            <img src="/images/images_webp/stlls (8).webp" class="cards" id="card-1">
+            </img>
+            <img src="/images/images_webp/stlls (6).webp" class="cards" id="card-2">
+            </img>
+            <img src="/images/images_webp/stlls (3).webp" class="cards" id="card-3">
+            </img>
+            <img src="/images/images_webp/stlls (2).webp" class="cards" id="card-4">
+            </img>
+            <img src="/images/images_webp/stlls (1).webp" class="cards" id="card-5">
+            </img>
+            <img src="/images/images_webp/stlls (4).webp" class="cards" id="card-6">
+        </img>
+            <img src="/images/images_webp/stlls (5).webp" class="cards" id="card-7">
+            </img>
+        </div>
+        <!-- <div id="page5">
+            <div id="page5_tbox">
+                <h3>"This is the product animation I did to explore blender more deeply.I had fun creating this awesome product renders and b-roll show casing the product"</h3>
+            </div>
+            <img id="page5_bg" src="images/ss1.png" alt="">
+        </div> -->
+        <div id="page6" class="pages">
+            <video src="/video/orange_for_web_1.mp4" muted autoplay loop></video>
+                <h3>"This is the product animation I did to explore blender more deeply.I had fun creating this awesome product renders and b-roll show casing the product"</h3>
+        </div>
+        <div id="page7">
+            <div id="page7_tbox">
+                <div id="text">
+                    <h2 id="little">Hello!</h2>
+                    <h1>I'm <span id="multi-text"></span></h1>
+                    <h3></h3>
+
+                </div>
+                <div id="social">
+                    <a href="https://www.linkedin.com/in/shivamani-yamana-71032025b" target=”_blank”><i class="fa-brands fa-linkedin" style="color: #ffffff;"></i> LinkedIn</a>
+                    <a href="https://www.instagram.com/nemo._.3d/" target=”_blank”><i class="fa-brands fa-instagram" style="color: #ffffff;"></i>    Instagram</a>
+                    <a href="https://discord.gg/FymRUsxhG" target=”_blank"><i class="fa-brands fa-discord" style="color: #ffffff;"></i>    Discord</a>
+                </div>
+            </div>
+            <div id="image_box"></div>
+        </div>
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/9c3343a3ee.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.5/ScrollToPlugin.min.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="canvas_scroll_v2.js"></script>
+    <script src="parallax.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
