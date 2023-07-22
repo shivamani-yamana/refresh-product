@@ -16,8 +16,6 @@ body {
   width: 100%;
   font-size: 62.5%;
   background-color: var(--green_apple);
-  /* scroll-behavior: smooth; */
-  /* background-color: var(--green_apple); */
 }
 
 #main {
@@ -34,7 +32,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* background-color:var(--green_apple); */
   height: 10vh;
   width: 100vw;
   position: absolute;
@@ -43,36 +40,7 @@ body {
   background: rgb(255, 255, 255);
 }
 
-/*
-nav a.active {
-    top: -4px;
-    background-color: #69C773;
-    color: #FFFFFF;
-    -webkit-box-shadow: 0 4px 0 0 #51a65f;
-    -moz-box-shadow: 0 4px 0 0 #51a65f;
-    box-shadow: 0 4px 0 0 #51a65f;
-}
 
-.active{
-    color:red;
-}
-#nav_menu>ul{
-    display: flex;
-    justify-content: space-around;
-    width:40vw;
-    font-size: 1.8rem;
-    font-family: 'Rubik', sans-serif;
-    margin-right: 6rem;
-}
-#nav_menu>ul>li{
-    display: block;
-    padding: 0.2rem;
-    transition: all .2s;
-    cursor: pointer;
-}
-#nav_menu>ul>li:hover{
-    color:var(--orange);
-}*/
 #nav_menu > h3 {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
@@ -183,7 +151,7 @@ nav a.active {
   position: absolute;
   top: 15%;
   width: 100vw;
-  /* background-color: white; */
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -201,7 +169,6 @@ nav a.active {
 }
 .cards {
   position: absolute;
-  /* width: 100%; */
   height: 80vh;
   background-position: center;
   background-size: cover;
@@ -237,42 +204,6 @@ nav a.active {
   z-index: 7;
 }
 
-/*THIS IS FROM BREAKDOWN PART*/
-/* #page5{
-    background-color:var(--black);
-    height: 100%;
-} 
-#page5_bg{
-    height:100%;
-    width:100%;
-    object-fit: cover;
-    opacity: 60%; 
-    filter: blur(.3rem); 
-    z-index:0;
-}
-
-#page5_tbox{
-    position: absolute;
-    height: 97%;
-    width: 100vw;
-    left:50%;
-    bottom:0%;
-    transform: translateX(-50%);
-    overflow:hidden;
-}
-#page5_tbox h3{
-    color:var(--black);
-    font-size: 5vw;
-    text-align: center;
-    position: absolute;
-    left:50%;
-    transform: translateX(-50%);
-    top:100%;
-    color:var(--white);
-    opacity: 100%;
-    white-space: pre-wrap;
-    z-index:50;
-}  */
 
 #page6 {
   position: relative;
@@ -303,7 +234,6 @@ nav a.active {
   align-items: center;
 }
 #page7_tbox {
-  /* background-color: rgb(255, 7, 7); */
   width: 40rem;
   height: 60vh;
   display: flex;
@@ -326,7 +256,6 @@ nav a.active {
 #social {
   font-family: "Rubik", sans-serif;
   height: 30vh;
-  /* background-color: #ffc400; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -349,7 +278,7 @@ nav a.active {
   width: 60rem;
   height: 60vh;
   /* background-color: greenyellow; */
-  background-image: url(/images//images_webp/mylogo_white.webp);
+  background-image: url(./images/images_webp/mylogo_white.webp);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
